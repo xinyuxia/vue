@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+header, footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #373277;
+  z-index: 100;
+}
+
+container {
+  position: relative;
+  height: 100%;
+  background: #f0f0f0;
+}
+
+container aside {
+  padding: 60px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  background: #373277;
+  float: right;
+}
+
+container aside:first-child {
+  float: left;
+}
+
+footer {
+  bottom: 0;
+}
+/*# sourceMappingURL=双飞燕.css.map */
